@@ -12,9 +12,9 @@ namespace Task2
             Console.Write("a="); int a = int.Parse(Console.ReadLine());
             Console.Write("b="); int b = int.Parse(Console.ReadLine());
             Console.Write("z="); int z = int.Parse(Console.ReadLine());
-            int t = (y + 6 * a - 2 / 3 * (x + 6));
-            int q = t * t * t * t * t * t; //Math.Pow not working properly
-            int w = q - z / z + 7 * b;
+            double t = (y + 6 * a - 2 / 3 * (x + 6));
+            double q = t * t * t * t * t * t; //Math.Pow not working properly
+            double w = q - z / z + 7 * b;
             Console.WriteLine(w);
             Console.ReadLine();
         }
